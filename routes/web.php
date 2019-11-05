@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/nest/nested_index/nested_view', 'WebController@nested_index');
